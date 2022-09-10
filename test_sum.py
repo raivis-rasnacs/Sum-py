@@ -1,4 +1,5 @@
 from sum import sum
 
-assert sum(4, 5) == 9
-assert sum(3, 2) == 5
+def test_sum():
+    assert sum(3, 4) == 7
+    assert sum(5, 8) == 13
